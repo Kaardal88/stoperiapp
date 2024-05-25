@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "navn": "Co2",
+        "leverandør": "AGA",
+        "artikkelnr": 2786
+    },
+
+    {
+        "id": 2,
+        "navn": "Novanol 240",
+        "leverandør": "Ashland",
+        "artikkelnr": "K042"
+    },
+
+    {
+        "id": 3,
+        "navn": "Slippmiddel - Zip slip 56",
+        "leverandør": "Ashland",
+        "artikkelnr": 1223
+    },
+
+    {
+        "id": 4,
+        "navn": "Kjernelim",
+        "leverandør": "Ashland",
+        "artikkelnr": 458
+    },
+
+    {
+        "id": 5,
+        "navn": "Oxibron 10 (deox)",
+        "leverandør":"Ashland",
+        "artikkelnr": "K078"
+    },
+
+    {
+        "id": 6,
+        "navn": "Digel AC90 VOV",
+        "leverandør":"Ashland",
+        "artikkelnr": "31002383"
+    }
+
+]
