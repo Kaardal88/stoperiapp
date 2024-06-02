@@ -150,3 +150,24 @@ footer p {
     width: 1440px;
     height: 80px;
 }
+
+.mm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.værdata-hosanger{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+   }
+
+.location-høsong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgb(199, 238, 248);
+}
