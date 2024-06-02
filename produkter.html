@@ -5,38 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-
-</head>
+    <link href="/css/style2.css" rel="stylesheet">
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="/images/64e45bab16a42ac570ce59ca_Mjøs main logo_rgb.svg">
     <script type="module" src="/js/produkter.js"></script>
-
+    
+    <script defer src="/js/download.js"></script>
 </head>
 <body>
 
-
-
-    <div class="content">
-
-    <div class="p-4">
-        <div class="flex justify-between  items-center mb-4">
-            <h2 class="text-lg font-bold">Item List</h2>
-            <button id="add-item-btn" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Funfacts</button>
+    <div class="content-wrapper">
+        <div class="tilbake-btn-container-produkter">
+            <a href="/index.html"><button type="button" class="tilbake-btn">Tilbake</button></a>
         </div>
-
-        <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-        <div id="favorites-container" class="mt-4"></div>
-        <a href="/mail.html"><button id="send-email-btn" type="button" class="bg-blue-500 text-white px-4 py-2 rounded-lg" >Til Epost</button></a>
-    </div>
-</div>
-
-
-    <div id="favorites-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
-
+        <div class="content flex flex-col lg:flex-row p-4 w-full gap-4">
+            <!-- Products container -->
+            <div class="w-full lg:w-3/4">
+                <div class="flex justify-between items-center mb-4">
+                    <h1 class="produktliste-styling">PRODUKTLISTE</h1>
+                </div>
+                <div class="produkter-styling">
+                    <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+                    <button id="view-more-btn" class="bg-blue-500 text-white px-4 py-2 rounded-lg mt-4">Se mer</button>
+                </div>
+            </div>
     
+            <!-- Favorites container -->
+            <div class="w-full lg:w-1/4 favorites-container-main">
+                <h1 class="produktliste-styling">BESTILLINGSLISTE</h1>
+                <div id="favorites-container" class="favorites-container-styling"></div>
+                <a href="/mail.html"><button id="send-email-btn" type="button" class="bg-blue-500 text-white px-4 py-2 rounded-lg">Lagre</button></a>
+            </div>
+        </div>
         
+    </div>
 
-            
     
+
+
+
 </body>
 </html>

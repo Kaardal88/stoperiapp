@@ -39,6 +39,175 @@
         "navn": "Digel AC90 VOV",
         "leverandør":"Ashland",
         "artikkelnr": "31002383"
+    },
+
+    {
+        "id": 7,
+        "navn": "Fosfor DEOX F3",
+        "leverandør":"Ashland",
+        "artikkelnr": "K080"
+    },
+
+    {
+        "id": 8,
+        "navn": "Fosfor DEOX BM",
+        "leverandør":"Ashland",
+        "artikkelnr": "K087"
+    },
+
+    {
+        "id": 9,
+        "navn": "Spritsverte",
+        "leverandør":"Ashland",
+        "artikkelnr": "K079"
+    },
+
+    {
+        "id": 10,
+        "navn": "Isopropanol",
+        "leverandør":"Univar-BV",
+        "artikkelnr": "K015"
+    },
+
+
+    {
+        "id": 11,
+        "navn": "Lunkepulver Thermol273",
+        "leverandør":"Ashland",
+        "artikkelnr": "K084"
+    },
+
+    {
+        "id": 12,
+        "navn": "Sil 50x50x22",
+        "leverandør":"Ashland",
+        "artikkelnr": "55321"
+    },
+
+    {
+        "id": 13,
+        "navn": "Sil 50x22 (rund)",
+        "leverandør":"Ashland",
+        "artikkelnr": "176226"
+    },
+
+    {
+        "id": 14,
+        "navn": "Sand",
+        "leverandør":"Brogård Sand",
+        "artikkelnr": "35001"
+    },
+
+    {
+        "id": 15,
+        "navn": "Slipebånd",
+        "leverandør":"E. Lund",
+        "artikkelnr": "32951"
+    },
+
+    {
+        "id": 16,
+        "navn": "Kappskive stor (alu)",
+        "leverandør":"E. Lund",
+        "artikkelnr": ""
+    },
+
+    {
+        "id": 17,
+        "navn": "Kappskive stor",
+        "leverandør":"E. Lund",
+        "artikkelnr": ""
+    },
+
+    {
+        "id": 18,
+        "navn": "Slipeskive liten",
+        "leverandør":"E. Lund",
+        "artikkelnr": ""
+    },
+
+    {
+        "id": 19,
+        "navn": "Sagblad (Støperisag)",
+        "leverandør":"Saghuset",
+        "artikkelnr": "2143"
+    },
+
+    {
+        "id": 20,
+        "navn": "Slipestein",
+        "leverandør":"E. Lund",
+        "artikkelnr": "2904"
+    },
+
+    {
+        "id": 21,
+        "navn": "Slipeskiveavretter",
+        "leverandør":"E. Lund",
+        "artikkelnr": "3171-0205"
+    },
+
+    {
+        "id": 22,
+        "navn": "Trinse (til avretter, løs)",
+        "leverandør":"E. Lund",
+        "artikkelnr": "3171-0502"
+    },
+
+    {
+        "id": 23,
+        "navn": "Carsil 2000",
+        "leverandør":"BIM Norway",
+        "artikkelnr": "K001"
+    },
+
+    {
+        "id": 24,
+        "navn": "Veloset 3",
+        "leverandør":"Foseco",
+        "artikkelnr": "K053"
+    },
+
+    {
+        "id": 25,
+        "navn": "Simodal 77",
+        "leverandør":"Foseco",
+        "artikkelnr": "K083"
+    },
+
+    {
+        "id": 26,
+        "navn": "Nitral C19",
+        "leverandør":"Foseco",
+        "artikkelnr": "K082"
+    },
+
+    {
+        "id": 27,
+        "navn": "Matar u/sil (Kalpur 5/15)",
+        "leverandør":"Foseco",
+        "artikkelnr": "1224"
+    },
+
+    {
+        "id": 28,
+        "navn": "Matar m/sil (Kalpur 6/15)",
+        "leverandør":"Foseco",
+        "artikkelnr": "944"
+    },
+
+    {
+        "id": 29,
+        "navn": "Målepinner",
+        "leverandør":"Elma",
+        "artikkelnr": "403"
+    },
+
+    {
+        "id": 30,
+        "navn": "Stålkuler til sandblåser",
+        "leverandør":"G&L Beijer",
+        "artikkelnr": "500552"
     }
 
 ]

@@ -1,16 +1,62 @@
-body{
-    background-color: darkgray;
-    width: 1440px;
+body {
+    background-color: rgb(29, 28, 32);
     width: 100%;
     max-height: 100%;
-    margin: 0 auto;
-}
-
-.content{
+    margin: 0;
     display: flex;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+}
+
+.card-container{
+    margin-top: 10%;
+}
+
+.tilbake-btn{
+    
+    background-color: #3366cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 14px 10px 14px;
+}
+
+.tilbake-btn:hover{
+    background-color: #184399;
+}
+
+.tilbake-btn-container{
+    margin: 0;
+    margin-left: 5%;
+    
+}
+
+.tilbake-btn-container-produkter{
+    margin-left: 1%;
+    margin-top: 10%;
+    }
+
+   
+
+.fav-btn-container{
+    display: block;
+    justify-content: center;
     margin-top: 5%;
+    background-color: rgba(211, 211, 211, 0.445);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10%;
+    
+}
+
+.mail-background{
+    background-color:  rgb(29, 28, 32);
+    max-width: 1440px;
+    max-height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card-img-top{
@@ -26,15 +72,81 @@ body{
     padding: 50px;
 }
 
-footer{
-   width: 100%;
-   height: 150px;
-   background-color: lightblue;
-   position: fixed;
-   bottom: 0;
+.content-wrapper {
+    width: 100%;
+    max-width: 1440px; /* Adjust the max-width as needed */
+    margin: 0 auto;
 }
 
-footer p{
+.content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.produktliste-styling{
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+    letter-spacing: 2px;
+    
+}
+
+.produkter-styling {
+    background-color: darkgray;
+    padding: 15px;
+    border-radius: 14px;
+    margin-bottom: 10%;
+}
+
+.favorites-container-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: rgba(255, 255, 255, 0.315);
+    padding: 16px;
+    border-radius: 8px;
+    height: auto;
+    max-height: 80vh; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.favorites-container-styling {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #3366cc;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
     text-align: center;
     padding-top: 75px;
+    color: white;
+}
+
+.produkter-info {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.ingen-produkter{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: black;
+    padding: 3px 3px 3px 3px;
+}
+
+.fav-container-save{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 80px;
 }
