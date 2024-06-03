@@ -1,7 +1,7 @@
-  // Function to fetch weather data from Yr API
-  async function fetchWeather() {
-    const latitude = 60.5987; // Example latitude for Oslo, Norway
-    const longitude = 5.5223; // Example longitude for Oslo, Norway
+// Function to fetch weather data from Yr API
+async function fetchWeather() {
+    const latitude = 60.5987; //Hosanger
+    const longitude = 5.5223; //Hosanger
     const url = `https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=${latitude}&lon=${longitude}`;
 
     try {
@@ -22,15 +22,40 @@
     }
 }
 
+// Function to map symbol_code to weather icon
+function getWeatherIcon(symbol_code) {
+    const iconMapping = {
+        "clearsky_day": "☀️",
+        "clearsky_night": "🌕",
+        "partlycloudy_day": "⛅",
+        "partlycloudy_night": "☁️",
+        "cloudy": "☁️",
+        "rain": "🌧️",
+        "lightrain": "🌦️",
+        "heavyrain": "🌧️",
+        "snow": "❄️",
+        "lightsnow": "🌨️",
+        "heavysnow": "❄️",
+        "fog": "🌫️",
+        "sleet": "🌧️",
+        "thunderstorm": "⛈️"
+    };
+    return iconMapping[symbol_code] || "❓"; 
+}
+
 // Function to display weather data
 function displayWeather(data) {
     const weatherDiv = document.getElementById('weather');
+    const temperature = data.properties.timeseries[0].data.instant.details.air_temperature;
+    const windSpeed = data.properties.timeseries[0].data.instant.details.wind_speed;
+    const symbolCode = data.properties.timeseries[0].data.next_1_hours.summary.symbol_code;
+    const weatherIcon = getWeatherIcon(symbolCode);
+
     weatherDiv.innerHTML = `
-        <p>Temperature: ${data.properties.timeseries[0].data.instant.details.air_temperature}°C</p>
-        <p>Wind Speed: ${data.properties.timeseries[0].data.instant.details.wind_speed} m/s</p>
-        <p>Condition: ${data.properties.timeseries[0].data.next_1_hours.summary.symbol_code}</p>
+        <p class="temp">Temperature: ${temperature}°C</p>
+        <p class="wind">Wind Speed: ${windSpeed} m/s</p>
+        <p class="condition">Condition: ${weatherIcon}</p>
     `;
 }
 
-// Fetch weather data when the page loads
-window.onload = fetchWeather;
+window.onload = fetchWeather; 
