@@ -3,7 +3,7 @@
         "id": 1,
         "navn": "Co2",
         "leverandør": "AGA",
-        "artikkelnr": 2786
+        "artikkelnr": "K017-1"
     },
 
     {
@@ -15,16 +15,16 @@
 
     {
         "id": 3,
-        "navn": "Slippmiddel - Zip slip 56",
+        "navn": "Slippmiddel - Ecopart 56",
         "leverandør": "Ashland",
-        "artikkelnr": 1223
+        "artikkelnr": "K058"
     },
 
     {
         "id": 4,
         "navn": "Kjernelim",
         "leverandør": "Ashland",
-        "artikkelnr": 458
+        "artikkelnr": "K049"
     },
 
     {
@@ -38,7 +38,7 @@
         "id": 6,
         "navn": "Digel AC90 VOV",
         "leverandør":"Ashland",
-        "artikkelnr": "31002383"
+        "artikkelnr": "31002383" 
     },
 
     {
@@ -59,12 +59,12 @@
         "id": 9,
         "navn": "Spritsverte",
         "leverandør":"Ashland",
-        "artikkelnr": "K079"
+        "artikkelnr": "K132"
     },
 
     {
         "id": 10,
-        "navn": "Isopropanol",
+        "navn": "Isopropanol, 25 liter",
         "leverandør":"Univar-BV",
         "artikkelnr": "K015"
     },

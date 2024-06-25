@@ -65,7 +65,6 @@
             const worksheet = XLSX.utils.json_to_sheet(
                 storedProducts.map(item => ({
                     Produkt: item.product.navn,
-                    Leverandør: item.product.leverandør,
                     Artikkelnr: item.product.artikkelnr,
                     Antall: item.amount
                 }))

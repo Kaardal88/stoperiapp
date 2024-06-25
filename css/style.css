@@ -1,19 +1,19 @@
 body {
     background-color: rgb(29, 28, 32);
     width: 100%;
-    max-height: 100%;
+    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card-container{
+.card-container {
     margin-top: 0;
 }
 
-.tilbake-btn{
-    
+.tilbake-btn {
+
     background-color: #3366cc;
     color: white;
     border: none;
@@ -21,38 +21,38 @@ body {
     padding: 10px 14px 10px 14px;
 }
 
-.tilbake-btn:hover{
+.tilbake-btn:hover {
     background-color: #184399;
 }
 
-.tilbake-btn-container{
+.tilbake-btn-container {
     display: flex;
     justify-content: center;
-    margin-bottom:auto;
+    margin-bottom: auto;
     margin-top: 5%;
-    
+
 }
 
-.tilbake-btn-container-produkter{
+.tilbake-btn-container-produkter {
     margin-left: 1%;
     margin-top: 10%;
-    }
+}
 
-   
 
-.fav-btn-container{
+
+.fav-btn-container {
     display: column;
     width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
-    
+
 }
 
-.mail-background{
-    background-color:  rgb(29, 28, 32);
+.mail-background {
+    background-color: rgb(29, 28, 32);
     max-width: 1440px;
     max-height: 100%;
     margin: 0 auto;
@@ -64,13 +64,13 @@ body {
     align-items: center;
 }
 
-.card-img-top{
+.card-img-top {
     width: 100%;
     height: 10vh;
     margin-top: 5%;
 }
 
-.card-body-mmapp{
+.card-body-mmapp {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,8 @@ body {
 
 .content-wrapper {
     width: 100%;
-    max-width: 1440px; /* Adjust the max-width as needed */
+    max-width: 1440px;
+    /* Adjust the max-width as needed */
     margin: 0 auto;
 }
 
@@ -90,12 +91,12 @@ body {
     margin-top: 5%;
 }
 
-.produktliste-styling{
+.produktliste-styling {
     color: white;
     font-size: x-large;
     font-weight: 700;
     letter-spacing: 2px;
-    
+
 }
 
 .produkter-styling {
@@ -113,8 +114,10 @@ body {
     padding: 16px;
     border-radius: 8px;
     height: auto;
-    max-height: 80vh; /* Set a maximum height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 80vh;
+    /* Set a maximum height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
 }
 
 .favorites-container-styling {
@@ -126,7 +129,7 @@ footer {
     width: 100%;
     height: 150px;
     background: linear-gradient(135deg, #6dd5fa, #2980b9);
-    position:fixed;
+    position: fixed;
     bottom: 0;
 }
 
@@ -141,7 +144,7 @@ footer p {
     padding-bottom: 20px;
 }
 
-.ingen-produkter{
+.ingen-produkter {
     color: white;
     text-transform: uppercase;
     font-weight: 500;
@@ -149,19 +152,21 @@ footer p {
     padding: 3px 3px 3px 3px;
 }
 
-.fav-container-save{
+.fav-container-save {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.mm-container{
+.mm-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 7%;
+    margin-top: 1%;
+    padding-bottom: 20px;
 }
-.værdata-hosanger{
+
+.værdata-hosanger {
     display: flex;
     flex-direction: column;
     margin-top: 10%;
@@ -175,14 +180,14 @@ footer p {
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease;
-   
-   }
 
-   .værdata-hosanger:hover{
+}
+
+.værdata-hosanger:hover {
     transform: translateY(-10px);
-   }
+}
 
-.location-høsong{
+.location-høsong {
     color: white;
     display: flex;
     justify-content: center;
@@ -194,11 +199,11 @@ footer p {
     transition: transform 0.3s ease;
 }
 
-.location-høsong:hover{
+.location-høsong:hover {
     transform: translateY(+10px);
 }
 
-#download-favorites-btn{
+#download-favorites-btn {
     display: flex;
     flex-direction: block;
     flex-wrap: wrap;
@@ -206,45 +211,47 @@ footer p {
     background: linear-gradient(135deg, #82d45c, #4c961b);
     text-transform: uppercase;
     transition: transform 0.3s ease;
-    
-    
+
+
 }
 
-#download-favorites-btn:hover{
+#download-favorites-btn:hover {
     background: linear-gradient(135deg, #71bd4e, #3b7712);
     transform: translateY(-5px);
 }
 
-#start-knapp{
+#start-knapp {
     padding-left: 20px;
     padding-right: 20px;
 
 }
 
-.temp, .wind, .condition{
+.temp,
+.wind,
+.condition {
     font-size: x-large;
 }
 
-.bestille-text{
+.bestille-text {
     color: white;
     letter-spacing: 2px;
 }
 
-.info-card-container{
+.info-card-container {
     display: flex;
     justify-content: center;
     margin-top: 10%;
     margin-bottom: 10%;
     width: 100%;
 
-    
+
 
 }
 
-.info-card-content{
+.info-card-content {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     background: linear-gradient(135deg, #6dd5fa, #2980b9);
     color: white;
     border-radius: 10px;
@@ -254,6 +261,20 @@ footer p {
     text-align: center;
 }
 
-.info-card-text{
+.info-card-text {
     font-size: x-large;
+}
+
+@media (max-width: 800px) {
+
+    footer {
+        display: none;
+    }
+
+
+
+
+
+
+
 }
